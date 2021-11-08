@@ -1,11 +1,13 @@
 # AluraCursosOO
 Scripts de Python do curso de orientação a objetos
 
-Abrir o Python Console;
+Abrir o Python Console
 
-from conta import Conta;
+#classe.py
 
-conta = Conta(numero,'nome', saldo, limite);
+from Conta import Conta
+
+conta = Conta(numero,'nome', saldo, limite)
 
 Comandos:
 
@@ -24,3 +26,11 @@ conta.titular
 conta.limite
 
 conta.limite = novolimite
+
+#data.py
+
+from datas import Data
+
+d = Data(dia,mes,ano)
+
+d.formatada()
